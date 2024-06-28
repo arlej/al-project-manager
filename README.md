@@ -1,5 +1,7 @@
 # Project manager
 
+A reponsive project/tasks management (with Registration and login) using React, NodeJS, ExpressJS and MongoDB.
+
 ## Technology Used
 
 This project uses the following technologies:
@@ -38,19 +40,8 @@ node --version
 ```
 # How To Run
 
-## Installation
 1. Download the repository
 2. Unzip folder and open it with [VS Code](https://code.visualstudio.com/)
-
-- <h3> Frontend
-
-1. Open terminal & go to `cd frontend`
-2. Install dependencies by running `npm install` command
-
-- <h3>Backend
-
-1. Open terminal & go to `cd backend` 
-2. install dependencies by running `npm install` command
 
 ## How to run
 
@@ -60,13 +51,15 @@ Create the file `backend/.env` with your Atlas URI and the server port:
 - DATABASE_URL="mongodb+srv://<username>:<password>@example.mongodb.net/project_manager?retryWrites=true&w=majority"
 - SECRET_KEY = "my-32-character-ultra-secure-and-ultra-long-secret"
 ```
-Start server (Backend):
+Start server and install dependencies (Backend):
 ```
+cd backend
 npm install
 npm start
 ```
-Start Client (Frontend):
+Start Client and install dependencies (Frontend):
 ```
+cd frontend
 npm install
 npm start or npm run dev
 ```
