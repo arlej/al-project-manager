@@ -1,6 +1,6 @@
 # Project manager
 
-A reponsive project/tasks management (with Registration and login) using React, NodeJS, ExpressJS and MongoDB.
+A reponsive projects/tasks management (with Registration and login) using React, NodeJS, ExpressJS and MongoDB.
 
 ## Technology Used
 
